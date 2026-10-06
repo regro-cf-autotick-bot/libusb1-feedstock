@@ -1,5 +1,5 @@
 {% set name = "libusb1" %}
-{% set version = "2.0.1" %}
+{% set version = "3.4.0" %}
 
 
 package:
@@ -7,8 +7,8 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/libusb1-{{ version }}.tar.gz
-  sha256: d3ba82ecf7ab6a48d21dac6697e26504670cc3522b8e5941bd28fb56cf3f6c46
+  url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/libusb1-{{ version }}.tar.gz
+  sha256: 9cf5638506d54f21bf36550d97ea63189111a23c4d8078f630103a2052135f45
 
 build:
   number: 0
